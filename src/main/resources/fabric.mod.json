@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "sos",
+	"version": "${version}",
+	"name": "Sweets o' Spirits",
+	"description": "Sweets o' thy Spirits",
+	"authors": [
+		"LordBee @Beelabs"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/sos/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.beelabs.sos.SweetsOSpirits"
+		],
+		"fabric-datagen": [
+			"net.beelabs.sos.SweetsOSpiritsDataGenerator"
+		],
+		"client": [
+			"net.beelabs.sos.SweetsOSpiritsClient"
+		]
+	},
+	"mixins": [
+		"sos.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
