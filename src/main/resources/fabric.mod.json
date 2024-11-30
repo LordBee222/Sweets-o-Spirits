@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.beelabs.sos.SweetsOSpirits"
+			"net.beelabs.sos.common.SweetsOSpirits"
 		],
 		"fabric-datagen": [
-			"net.beelabs.sos.SweetsOSpiritsDataGenerator"
+			"net.beelabs.sos.data.SweetsOSpiritsDataGenerator"
 		],
 		"client": [
-			"net.beelabs.sos.SweetsOSpiritsClient"
+			"net.beelabs.sos.client.SweetsOSpiritsClient"
 		]
 	},
 	"mixins": [

@@ -1,0 +1,20 @@
+{
+  "item_amethyst_trident_hit": {
+    "subtitle": "sounds.sos.item.amethyst_trident_hit",
+    "sounds": [
+      "sos:item_amethyst_trident_hit"
+    ]
+  },
+  "item_amethyst_trident_throw": {
+    "subtitle": "sounds.sos.item.amethyst_trident_throw",
+    "sounds": [
+      "sos:item_amethyst_trident_throw"
+    ]
+  },
+  "misc_amethyst_shard_burst": {
+    "subtitle": "sounds.sos.misc.amethyst_shard_burst",
+    "sounds": [
+      "sos:misc_amethyst_shard_burst"
+    ]
+  }
+}
